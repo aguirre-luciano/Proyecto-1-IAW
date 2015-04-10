@@ -1,0 +1,56 @@
+.navbar-brand{
+    height: 80px;
+}
+
+.navbar-brand img{
+    width: 150px;
+    height: 50px;
+}
+
+#0 {
+    z-index: 0;
+}
+
+.fondo {
+    background-color: #fff;
+    height: 350px;
+    width: 800px;
+}
+
+.hidden{
+    display: none;
+}
+
+.img {
+    z-index: 1;
+    position:absolute; /*El div debe tener la propiedad position distinta de static*/
+    top: 50%;
+    left:45%;
+    margin-top: -90px; /* El valor 200 es ficticio, debes cambiarlo en cada caso por la mitad de la altura de tu imagen*/
+    margin-let: -80px;/* El 200 deberás sustituirlo por la mitad del ancho de la imagen */
+}
+
+.remera {
+    z-index: 2;
+    top: 46%;
+    left:45%;
+    margin-top: -30px; /* El valor 200 es ficticio, debes cambiarlo en cada caso por la mitad de la altura de tu imagen*/
+    margin-let: -40px;/* El 200 deberás sustituirlo por la mitad del ancho de la imagen */
+}
+
+.pantalon {
+    z-index: 2;
+    top: 54%;
+    left:45%;
+    margin-top: -20px; /* El valor 200 es ficticio, debes cambiarlo en cada caso por la mitad de la altura de tu imagen*/
+    margin-let: -40px;/* El 200 deberás sustituirlo por la mitad del ancho de la imagen */
+}
+
+.zapatillas {
+    z-index: 2;
+    top: 63%;
+    left:45%;
+    margin-top: -5px; /* El valor 200 es ficticio, debes cambiarlo en cada caso por la mitad de la altura de tu imagen*/
+    margin-let: -40px;/* El 200 deberás sustituirlo por la mitad del ancho de la imagen */
+}
+

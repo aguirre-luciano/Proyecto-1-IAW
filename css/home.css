@@ -1,0 +1,9 @@
+body{
+    background-image: url("../images/fondo inicial.jpg");
+}
+
+.jumbotron {
+    background: none;
+    color: #f8f8f8
+}
+
